@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var newLbl: UILabel!
     let message = "Hello world"
     override func viewDidLoad() {
         super.viewDidLoad()
